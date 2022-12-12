@@ -2301,7 +2301,7 @@ end;
 select calories from (
 select elf_id,calories from elf_calories  order by calories desc 
 ) where rownum=1;
---69501
+--solution: 69501
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -2309,7 +2309,7 @@ select elf_id,calories from elf_calories  order by calories desc
 select SUM(CALORIES) from (
 select elf_id,calories from elf_calories  order by calories desc 
 ) where rownum<=3;
---202346
+--solution: 202346
 
 
 --remove the table
