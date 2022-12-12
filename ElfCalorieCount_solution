@@ -2313,4 +2313,4 @@ select elf_id,calories from elf_calories  order by calories desc
 
 
 --remove the table
-drop table elf_calories;
+drop table elf_calories purge;
